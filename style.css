@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/drums-bg.jpg);
+  background-size: cover;
+}
+.heading {
+  font-size: 80px;
+  font-weight: 700;
+  color: aliceblue;
+  text-align: center;
+  margin: 20px;
+}
+.container {
+  margin-top: 10vh;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.drums {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: aliceblue;
+  border: 4px solid orange;
+  margin: 20px;
+  transition: all 0.1s ease-in-out;
+}
+
+.drums kbd {
+  font-size: 20px;
+}
+
+.playing {
+  transform: scale(1.3);
+  border: 4px solid yellow;
+}
